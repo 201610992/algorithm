@@ -1,4 +1,4 @@
-package baekjoon.day05.chonsu;
+package baekjoon.day05.chonsu_2644;
 
 import java.util.LinkedList;
 import java.util.Queue;

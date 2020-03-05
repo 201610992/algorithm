@@ -1,4 +1,4 @@
-package baekjoon.day05.juckrock_dfs;
+package baekjoon.day05.juckrock_dfs_10026;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

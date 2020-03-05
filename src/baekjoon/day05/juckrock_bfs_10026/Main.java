@@ -99,7 +99,7 @@ class dot {
 
 */
 
-package baekjoon.day05.juckrock_bfs;
+package baekjoon.day05.juckrock_bfs_10026;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
