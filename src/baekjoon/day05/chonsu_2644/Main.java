@@ -30,7 +30,6 @@ public class Main {
                 d[i]=d[next]+1;
                 q.add(i);
             }
-
         }
 
         System.out.println(d[end]==0?-1:d[end]);
