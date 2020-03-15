@@ -12,9 +12,9 @@ public class Main {
         for(int i=1;i<=n;i++){
             coin[i] = sc.nextInt();
         }
-        dp[0] = 1;
+        dp[0] = 1; //동전을 아예 사용 안하는 경우 하나
         for(int i=1;i<=n;i++){
-            for(int j=0;j<=k;j++){
+            for(int j=0;j<=k;j++){ //j를 0으로 해도 정답
                 if(j-coin[i] >= 0){
                     dp[j] += dp[j-coin[i]];
                 }

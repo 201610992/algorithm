@@ -1,31 +1,76 @@
 package baekjoon.day08.downhillroad_1520;
 
-import java.util.Scanner;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-    static int[][] map;
-    static int[][] memorization;
-    static int M;
-    static int N;
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        M = sc.nextInt();
-        N = sc.nextInt();
-        map = new int[M+1][N+1];
-        memorization = new int[M+1][N+1];
-
-        for(int i=1;i<=M;i++){
-            for(int j=1;j<=N;j++){
-                map[i][j] = sc.nextInt();
+        int m = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(st.nextToken());
+        int[][] map = new int[m][n];
+        for(int i=0;i<m;i++){
+            st = new StringTokenizer(br.readLine());
+            for(int j=0;j<n;j++){
+                map[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
+        Solution solution = new Solution();
+        System.out.println(solution.solution(map));
 
     }
-
-
-
 }
 
+class Solution{
+    private static final int[] MOVE_R = {0,1,0,-1};
+    private static final int[] MOVE_C = {1,0,-1,0};
+
+    private static class Node{
+        int r,c;
+        public Node (int r, int c){
+            this.r = r;
+            this.c = c;
+        }
+    }
+
+    public int solution(int[][] map){
+        int[][] memo = new int[map.length][map[0].length];
+        Node startNode = new Node(0,0);
+        Node endNode = new Node(map.length-1, map[0].length-1);
+
+        for(int[] ints : memo){
+            Arrays.fill(ints,-1);
+        }
+        return dfs(map, memo, startNode,endNode);
+    }
+
+    private int dfs(int[][] map, int[][] memo, Node currentNode, Node endNode){
+        if(currentNode.r == endNode.r && currentNode.c == endNode.c){
+            return 1;
+        }
+        if(memo[currentNode.r][currentNode.c] == -1){
+            memo[currentNode.r][currentNode.c] = 0;
+            for(int i=0;i<4;i++){
+                Node nextNode = new Node(currentNode.r+MOVE_R[i],currentNode.c+MOVE_C[i]);
+                if(nextNode.r < 0 || nextNode.c < 0 || nextNode.r>=map.length || nextNode.c>=map[0].length){
+                    continue;
+                }
+                if(map[nextNode.r][nextNode.c] < map[currentNode.r][currentNode.c]){
+                    memo[currentNode.r][currentNode.c] += dfs(map,memo,nextNode,endNode);
+                }
+
+            }
+        }
+
+        return memo[currentNode.r][currentNode.c];
+
+
+    }
+}

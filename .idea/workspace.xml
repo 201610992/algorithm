@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934ccc67-1425-4df6-b096-e71c00d0d551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/day10/townnumber_2667/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/day05/chonsu_2644/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/day05/chonsu_2644/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/day09/amazingprimenum_2023/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/day09/amazingprimenum_2023/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/baekjoon/day05/chonsu_2644/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/baekjoon/day05/chonsu_2644/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/baekjoon/day09/amazingprimenum_2023/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/baekjoon/day09/amazingprimenum_2023/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/day07/coin1_2293/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/day07/coin1_2293/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/day08/downhillroad_1520/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/day08/downhillroad_1520/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +47,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.day07.tiling2xnbottomup_11726.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.day07.coin1_2293.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.day07.tiling2xnbottomup_11726.*" />
+          <option name="PATTERN" value="baekjoon.day07.coin1_2293.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,19 +67,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon.day09.amazingprimenum_2023.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.day08.ascendingnum_11057.Main" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.day08.ascendingnum_11057.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.day10.townnumberbfs_2667.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.day10.townnumberbfs_2667.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (6)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +160,10 @@
       <workItem from="1583744601449" duration="5855000" />
       <workItem from="1583763503217" duration="3815000" />
       <workItem from="1583816212713" duration="9960000" />
-      <workItem from="1583890227209" duration="7297000" />
+      <workItem from="1583890227209" duration="8971000" />
+      <workItem from="1584079172633" duration="8430000" />
+      <workItem from="1584182267593" duration="4325000" />
+      <workItem from="1584275588386" duration="8739000" />
     </task>
     <servers />
   </component>
@@ -173,26 +179,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="132" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581406263403" />
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583572537363">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584079188558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1583572537363" />
-    <state width="570" height="152" key="GridCell.Tab.0.bottom" timestamp="1583895949685">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584079188558" />
+    <state width="724" height="179" key="GridCell.Tab.0.bottom" timestamp="1584286105993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="570" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583895949685" />
-    <state width="570" height="152" key="GridCell.Tab.0.center" timestamp="1583895949685">
+    <state width="724" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584286105993" />
+    <state width="724" height="179" key="GridCell.Tab.0.center" timestamp="1584286105993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="570" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583895949685" />
-    <state width="570" height="152" key="GridCell.Tab.0.left" timestamp="1583895949685">
+    <state width="724" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584286105993" />
+    <state width="724" height="179" key="GridCell.Tab.0.left" timestamp="1584286105993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="570" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583895949685" />
-    <state width="570" height="152" key="GridCell.Tab.0.right" timestamp="1583895949685">
+    <state width="724" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584286105993" />
+    <state width="724" height="179" key="GridCell.Tab.0.right" timestamp="1584286105993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="570" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583895949685" />
+    <state width="724" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584286105993" />
     <state width="746" height="205" key="GridCell.Tab.1.bottom" timestamp="1583751985616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
