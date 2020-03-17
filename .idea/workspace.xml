@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934ccc67-1425-4df6-b096-e71c00d0d551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/day09/stackSequence_1874/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/day10/mirosearchbfs_onemore_2178/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/day10/townnumberdfs_2667/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/day11/makeBridge_2146/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/day11/safeArea_2468/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/baekjoon/day10/townnumber_2667/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/baekjoon/day10/townnumber_2667/dot.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +77,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon.day09.amazingprimenum_2023.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.day11.safeArea_2468.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.day11.safeArea_2468.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,7 +187,8 @@
       <workItem from="1584079172633" duration="8430000" />
       <workItem from="1584182267593" duration="4325000" />
       <workItem from="1584275588386" duration="9106000" />
-      <workItem from="1584321438593" duration="7355000" />
+      <workItem from="1584321438593" duration="8094000" />
+      <workItem from="1584408810375" duration="6073000" />
     </task>
     <servers />
   </component>
@@ -197,22 +208,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584079188558" />
-    <state width="723" height="179" key="GridCell.Tab.0.bottom" timestamp="1584325841786">
+    <state width="725" height="286" key="GridCell.Tab.0.bottom" timestamp="1584414040057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584325841786" />
-    <state width="723" height="179" key="GridCell.Tab.0.center" timestamp="1584325841785">
+    <state width="725" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584414040057" />
+    <state width="725" height="286" key="GridCell.Tab.0.center" timestamp="1584414040057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584325841785" />
-    <state width="723" height="179" key="GridCell.Tab.0.left" timestamp="1584325841785">
+    <state width="725" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584414040057" />
+    <state width="725" height="286" key="GridCell.Tab.0.left" timestamp="1584414040057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584325841785" />
-    <state width="723" height="179" key="GridCell.Tab.0.right" timestamp="1584325841786">
+    <state width="725" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584414040057" />
+    <state width="725" height="286" key="GridCell.Tab.0.right" timestamp="1584414040057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584325841786" />
+    <state width="725" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584414040057" />
     <state width="746" height="205" key="GridCell.Tab.1.bottom" timestamp="1583751985616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
